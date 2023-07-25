@@ -1,1 +1,1 @@
-# Webpack-Set-up
+# Set up project with webpack

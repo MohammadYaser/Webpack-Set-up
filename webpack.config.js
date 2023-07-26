@@ -9,6 +9,15 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
     },
+    devServer: {
+        static: {
+            directory: path.resolve(__dirname, 'dist'),
+        },
+        open: true,
+        hot: true,
+        compress: true,
+        historyApiFallback: true,
+    },
     module: {
         rules: [
             {
